@@ -1,0 +1,31 @@
+{
+  "name": "max-by",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undoZen/max-by.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/undoZen/max-by/issues"
+  },
+  "testling": {
+    "harness": "mocha",
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/latest",
+      "firefox/latest"
+    ]
+  },
+  "homepage": "https://github.com/undoZen/max-by",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
